@@ -2,6 +2,10 @@ allowBuilds:
   esbuild: true
 minimumReleaseAgeExclude:
   - bumpp@12.0.0
+shellEmulator: true
+
+trustPolicy: no-downgrade
+
 onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
